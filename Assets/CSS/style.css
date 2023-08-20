@@ -23,7 +23,7 @@ selectors). */
 .header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgb(87, 87, 240);
+  color: rgb(244, 246, 249);
 }
 
 .header h1 {
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: whitesmoke;
+  color: rgb(220, 235, 249);
 }
 
 /* Add blue ribbon strip to provide a break from the  */
@@ -66,6 +66,41 @@ a:hover {
   background-size: cover;
   background-position: center;
 }
+main {
+  display:block;
+}
+
+aside {
+  flex: 20%;
+  background-color: rgb(244, 246, 249);
+  color: rgb(47, 47, 152);
+  padding: 20px;
+  flex-wrap: wrap;
+}
+aside {
+  display: block;
+}
+
+.sample-img {
+  background-color: #fff;
+  max-width: 25%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid rgb(47, 47, 152);
+}
+
+/* @media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+} */
+
+/* Small smartphones - image placeholders change color */
+/* @media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
+} */
 
 /* Main body of work featuring 5 "work" pieces for the portfolio */
     /* WHEN I click on the images of the applications
