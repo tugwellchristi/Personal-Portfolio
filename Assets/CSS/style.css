@@ -1,1 +1,18 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
 
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+body {
+  background-color: light gray;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+
+
+/* Applies to all elements with <... class="someclass"> specified. */
+
+
+/* Applies to the element with <... id="someid"> specified. */
