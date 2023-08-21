@@ -28,7 +28,7 @@ selectors). */
 
 .header h1 {
   display: inline-block;
-  font-size: 38px;
+  font-size: 48px;
 }
 
 .header div {
@@ -49,7 +49,7 @@ selectors). */
 }
 
 a {
-  color:rgb(47, 47, 152);
+  color:rgb(71, 71, 117);
   text-decoration: none;
 }
 
@@ -65,30 +65,53 @@ a:hover {
   background-image: url(../Images/Blue_ribbon.jpg);
   background-size: cover;
   background-position: center;
+  border-style:solid;
+  border-color: rgb(71, 71, 117);
+  border-width: 3px; 
 }
 main {
   display:block;
 }
 
 aside {
-  flex: 20%;
-  background-color: rgb(244, 246, 249);
-  color: rgb(47, 47, 152);
-  padding: 20px;
+  float: left;
+  flex: 40%;
+  background-color: #fff;
+  color: rgb(71, 71, 117);
+  padding: 40px;
+  margin: 0px;
   flex-wrap: wrap;
 }
+
 aside {
   display: block;
 }
 
 .sample-img {
   background-color: #fff;
-  max-width: 25%;
+  max-width: 75%;
   padding: 20px;
   height: 200px;
-  border: 1px solid rgb(47, 47, 152);
+  border: 1px solid rgb(71, 71, 117);
 }
 
+h2 {
+  font-size: 38px;
+}
+
+.Unity {
+  border-style:solid;
+  border-color: rgb(71, 71, 117);
+  border-width: 3px;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+.Unity img {
+  height: 580px;
+  width: 100%;
+}
 /* @media screen and (max-width: 992px) {
   header {
     background: #772014;
