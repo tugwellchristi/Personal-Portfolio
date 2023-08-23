@@ -79,7 +79,7 @@ aside {
   background-color: #fff;
   color: rgb(71, 71, 117);
   padding: 40px;
-  margin: 0px;
+  margin: 28px;
   flex-wrap: wrap;
 }
 
@@ -100,18 +100,55 @@ h2 {
 }
 
 .Unity {
-  border-style:solid;
   border-color: rgb(71, 71, 117);
   border-width: 3px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
+  margin: 20px;
   float: right;
 }
 
+.Unity div {
+  float: left;
+  color: whitesmoke;
+  background-color: rgb(71, 71, 117);
+}
+
 .Unity img {
-  height: 580px;
+  height: 500px;
   width: 100%;
 }
+
+.Worlds {
+  border-color: rgb(71, 71, 117);
+  border-width: 3px;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+}
+
+.Worlds div {
+  float: left;
+  color: whitesmoke;
+  background-color: rgb(71, 71, 117);
+}
+
+.Worlds img {
+  height: 250px;
+  width: 100%;
+}
+
+/*.Worlds {
+  float: left;
+  color: whitesmoke;
+  background-color: rgb(71, 71, 117);
+}
+
+.Worlds img {
+  height: 290px;
+  width: 50%;
+}*/
+
+
 /* @media screen and (max-width: 992px) {
   header {
     background: #772014;
