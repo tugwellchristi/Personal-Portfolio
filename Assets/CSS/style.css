@@ -24,6 +24,7 @@ selectors). */
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(244, 246, 249);
+  flex-wrap: wrap;
 }
 
 .header h1 {
@@ -41,16 +42,16 @@ selectors). */
 
 .header div ul {
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .header div ul li {
-  display: inline-block;
+  flex-wrap: wrap;
   margin-left: 25px;
 }
 
 a {
   color:rgb(71, 71, 117);
-  text-decoration: none;
 }
 
 a:hover {
@@ -70,22 +71,21 @@ a:hover {
   border-width: 3px; 
 }
 main {
-  display:block;
+  display:flex;
 }
 
 aside {
-  float: left;
-  flex: 40%;
+  flex: 30%;
   background-color: #fff;
   color: rgb(71, 71, 117);
-  padding: 40px;
-  margin: 28px;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
-aside {
+/* aside {
   display: block;
 }
+*/
 
 .sample-img {
   background-color: #fff;
@@ -99,12 +99,22 @@ h2 {
   font-size: 38px;
 }
 
+.container {
+  flex: 70%;
+  padding: 0px;
+  border-color: rgb(71, 71, 117);
+  border-width: 3px;
+  box-sizing:border-box;
+  
+}
+
+
 .Unity {
   border-color: rgb(71, 71, 117);
   border-width: 3px;
   padding: 10px;
-  margin: 20px;
-  float: right;
+  margin: 50px;
+  float: right; 
 }
 
 .Unity div {
@@ -118,7 +128,7 @@ h2 {
   width: 100%;
 }
 
-.Worlds {
+/*.Projects {
   border-color: rgb(71, 71, 117);
   border-width: 3px;
   padding: 10px;
@@ -149,11 +159,16 @@ h2 {
 }*/
 
 
-/* @media screen and (max-width: 992px) {
-  header {
-    background: #772014;
+@media screen and (max-width: 992px) {
+  .header {
+    background: #3690c0;
   }
-} */
+} 
+@media screen and (max-width: 992px) {
+  .container {
+    width: 50%;
+  }
+}
 
 /* Small smartphones - image placeholders change color */
 /* @media screen and (max-width: 576px) {
