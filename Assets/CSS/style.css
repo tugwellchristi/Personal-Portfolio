@@ -141,6 +141,7 @@ selectors). */
   
   .NW game img {
     display: block;
+    width: 100%;
     height: 250px;
     width: 300px;
   }
