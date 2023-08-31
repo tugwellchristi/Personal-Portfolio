@@ -28,88 +28,104 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
   </head>
 
   <body>
-
     <header class="header">
       <h1> CHRISTI TUGWELL</h1>
-      <div>
-        <ul>
+        <div class="nav">
+            <ul>
           <!-- WHEN I click one of the links in the navigation
           THEN the UI scrolls to the corresponding section-->
-          <li><a href="#about-me"><u>About Me</u></a></li>
-          <li><a href="#work"><u>Work</u></a> </li>
-          <li><a href="#resume"><u>Resume</u></a> </li>
-          <li><a href="#contact-me"><u>Contact Me</u></a> </li>
-      </ul>
-      </div>
+                <li><a href="#about-me"><u>About Me</u></a></li>
+                <li><a href="#work"><u>Work</u></a> </li>
+                <li><a href="#resume"><u>Resume</u></a> </li>
+                <li><a href="#contact-me"><u>Contact Me</u></a> </li>
+            </ul>
+        </div>
     </header>
+
     <div class="hero"></div>
-    <br />
+
     <main>
-      <aside>
-        <h2><u>ABOUT ME</u></h2>
-        <br />
-        <div class="sample-img">Image</div>
-        <br />
-        <br />
-        <br />
-        <h2><u>WORK</u></h2>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h2><u>RESUME</u></h2>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h2><u>CONTACT ME</u></h2>
-      </aside>
-
-      <container>
-        
-      <section class="Unity">
-        <div class="Unity">
-          <h2 class="text-left">NW Wanderer</h2>
-          <h3 class="text-left">Unity</h3>
-          <img src="../Assets/Images/NW_Wanderer_Unity.png" alt="Unity project" />
+    <div class="row">
+      <section class="leftcolumn">
+        <div class="category">
+          <h2 id="aboutmeh2">ABOUT ME</h2>
+          <div class="sample-img">
+            <img src="../Assets/Images/Self_Portrait.jpg" alt="Self Portrait" width="200px" height="200px">
+          </div>
         </div>
-      </section>
-     <!-- <section class="Projects">
-        <div class="Worlds">
-          <h2 class="text-left">Worlds</h2>
-          <h3 class="text-left">Glitch/A-Frame</h3>
-          <img src="../Assets/Images/Worlds_Glitch.png" alt="Glitch project" />
+            
+        <div class="category">
+          <h2 id="workh2">WORK</h2>
         </div>
-      </section>
-
-      <section class="Projects">
-        <div class="Final">
-          <h2 class="text-right">Happy Place</h2>
-          <h3 class="text-right">After Effects</h3>
-          <img src="../Assets/Images/Final_AE.png" alt="After Effects project" />
+            
+        <div class="category">
+            <h2 id="resumeh2">RESUME</h2>
         </div>
-      </section>
-      
-      <section class="Projects">
-        <div class="3D Pizza">
-          h2 class="text-left">3D Pizza</h2>
-          <h3 class="text-left">Maya</h3>
-          <img src="../Assets/Images/3D_Pizza_Maya.png" alt="Maya project" />
+         
+        <div class="category">
+            <h2 id="contactmeh2">CONTACT ME</h2>
+          </div>
+    </section>
+
+      <section class="rightcolumn">
+        <div class="bio">
+            <h3 id="about-me">Just a gal from Houston, TX who found her place in North Central Washington.</h3> <p>I love music, immersive art, motorcycles, travel, pit bulls, hiking, running, baking, and creating! After over 10 years in hospitality, I moved into advertising and marketing and began my MS in Art and Technology from the University of Oklahoma. Throughout the program, I explored numerous digital art mediums and landed on wanting to learn different coding languages to use for AR and VR design, as well as point me toward the path of front end development. I've most enjoyed using Unity for creating 3D virtual environments, Glitch.com to create VR spaces and working in Adobe Premiere Pro and After Effects to create videos. Still working out the rest!
+                <br />
+                <br />
+                Please enjoy some of my favorite pieces created through various Adobe programs, Unity, and Glitch. More projects created with various coding languages are soon to come!
+            </p>
         </div>
-      </section>
-      
-      <section class="Projects">
-        <div class="Hello Summer">
-          h2 class="text-right">Hello Summer</h2>
-          <h3 class="text-right">After Effects</h3>
-          <img src="../Assets/Images/Hello_Summer_AE.png" alt="After Effects project" />
-        </div> 
-      </section> -->
-    </container>
-
-    </main>
-
+        <div class="project">
+            <h2 id="work">NW Wanderer</h2>
+              <h3>Unity</h3>
+              <div class="NW game-img">
+                <img src="../Assets/Images/NW_Wanderer_Unity.png" alt="Unity project" width="1000px" height="500px"/>
+              </div>
+        </div>
+        <div class="projects">
+            <h2> Pizza Time</h2>
+              <h3>Maya</h3>
+              <div class="Three d pizza-img">
+                <img src="../Assets/Images/3D_Pizza_Maya.png" alt="Maya project" width="450px" height="250px"/>
+              </div>
+        </div>
+        <div class="projects">
+            <h2> Worlds</h2>
+              <h3>Glitch/A-Frame</h3>
+              <div class="Worlds-img">
+                <img src="../Assets/Images/Worlds_Glitch.png" alt="Unity project" width="450px" height="250px"/>
+              </div>
+        </div>
+        <div class="projects">
+            <h2> Happy Place</h2>
+              <h3>Adobe After Effects</h3>
+              <div class="Happy-img">
+                <img src="../Assets/Images/Final_AE.png" alt="Unity project" width="450px" height="250px"/>
+              </div>
+        </div>
+        <div class="projects">
+            <h2> Hello Summer</h2>
+              <h3>Adobe After Effects</h3>
+              <div class="Hello-img">
+                <img src="../Assets/Images/Hello_Summer_AE.png" alt="Unity project" width="450px" height="250px"/>
+              </div>
+        </div>
+        <div class="resume">
+            <h3 id="resume">Updated Resume Coming Soon!</h3> 
+        </div>
+        <div class="contact-me">
+            <h3 id="contact-me">Let's Connect!</h3> 
+                <div>
+                    <ul>
+                        <li>Email: tugwellchristi@gmail.com</li>
+                        <li>GitHub: tugwellchristi</li>
+                        <li>LinkedIn: Christi Tugwell</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+</main>
     <footer></footer>
  
-   </body>
+  </body>
 </html>
