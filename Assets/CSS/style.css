@@ -59,7 +59,7 @@ selectors). */
     color: rgb(220, 235, 249);
   }
   
-  /* Add blue ribbon strip to provide a break from the  */
+  /* Add blue ribbon strip to provide a break from the header and body */
   .hero {
     height: 125px;
     width: 100%;
@@ -83,7 +83,6 @@ selectors). */
     height: 220%;
     padding-top: 20px;
     padding-left: 30px;
-    background-color: whitesmoke;
     color:rgb(71, 71, 117);
   }
 
@@ -100,19 +99,17 @@ selectors). */
     height: 1400px;
   }
 
+/* block out resume section
   #resumeh2 {
     height: 150px;
   }
+*/
 
   #contactmeh2 {
     height: 100px;
   }
 
-  .sample-img {
-    padding: 5px;
-    height: 150px;
-    /*border: 1px solid rgb(71, 71, 117);*/
-  }
+  
 
   .rightcolumn {
     display:flex-inline;
@@ -125,7 +122,18 @@ selectors). */
     color:rgb(71, 71, 117);
   }
 
-  .bio {
+  .avatar {
+    padding: 0px;
+    margin-right: 20px;
+    width: auto;
+    height: 200px;
+    float:inline-start;
+    border: 2px solid rgb(71, 71, 117);
+  }
+
+  .card { 
+    display: flex;
+    width: 100%;
     padding-top: 40px;
     padding-bottom: 30px;
     font-size: 20px;
@@ -204,24 +212,7 @@ selectors). */
     justify-content: space-evenly;
     padding-left: 45px;
  }
-  /*.footer {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-  }
-  
-  .footer ul {
-    list-style-type: none;
-    display: inline-flex;  
-  }
-  
-  .footer ul li {
-    flex-wrap: wrap;
-    margin-left: 25px;
-  }
-*/
+
   @media screen and (max-width: 992px) {
     .header, body, .rightcolumn {
       background-color: #3690c0;
@@ -236,5 +227,16 @@ selectors). */
   @media screen and (max-width: 825px) {
     .leftcolumn {
       display: none;
+      width: 0%;
+    }
+  } 
+  @media screen and (max-width: 825px) {
+    .avatar {
+      display: none;
+    }
+  } @media screen and (max-width: 825px) {
+    .card {
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
   } 
