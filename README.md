@@ -38,7 +38,7 @@ Adobe After Effects projects: Live "Hello Summer" link - https://vimeo.com/72551
 Maya "3D Pizza" project: Live link - https://vimeo.com/708089699?share=copy
 
 ## Link to Deployed Website
-file:///Users/christitugwell/bootcamp/Challenges/v2-Ch-2-Portfolio/v2-Ch-2-Adv-CSS-Portfolio/Assets/index.html
+http://127.0.0.1:5500/Assets/index.html
 
 ## Screenshots from Deployed Website
 Top section of portfolio site, hover color changes on header category links. 
