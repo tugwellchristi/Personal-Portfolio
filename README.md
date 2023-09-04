@@ -30,10 +30,22 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Resources
 My portfolio pieces:
+Please note that the Glitch and Unity projects occasionally need to be refreshed 1-2 times before loading but they do work!
+
 Glitch "Worlds" project: Live link - https://worldsct1.glitch.me & Live code link - https://glitch.com/edit/#!/worldsct1
 Unity "NW Wanderer" basic game build: Live link - https://play.unity.com/mg/other/webgl-builds-340110
 Adobe After Effects projects: Live "Hello Summer" link - https://vimeo.com/725517272?share=copy & Live "Final" link - https://vimeo.com/726232693?share=copy
 Maya "3D Pizza" project: Live link - https://vimeo.com/708089699?share=copy
 
 ## Link to Deployed Website
+file:///Users/christitugwell/bootcamp/Challenges/v2-Ch-2-Portfolio/v2-Ch-2-Adv-CSS-Portfolio/Assets/index.html
 
+## Screenshots from Deployed Website
+Top section of portfolio site, hover color changes on header category links. 
+![Deployed_Page](https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio/assets/90078824/30dbeaa4-641d-475e-a836-7c49800ae836)
+
+Work section of portfolio site, hover transparency placed on project image links. 
+![Work_Section](https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio/assets/90078824/30e6e04b-880d-4367-bbf1-1f471041bab3)
+
+Contact info section of portfolio site, hover color changes on contact links. 
+![Contact_Section](https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio/assets/90078824/c311b3de-6a72-4fb8-aeff-585168c27d7a)
