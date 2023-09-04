@@ -1,21 +1,3 @@
-<!-- GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport -->
 
 <!DOCTYPE>
 <html lang="en"> 
@@ -35,9 +17,9 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
           <!-- WHEN I click one of the links in the navigation
           THEN the UI scrolls to the corresponding section-->
                 <li><a href="#about-me"><u>About Me</u></a></li>
-                <li><a href="#work"><u>Work</u></a> </li>
-                <li><a href="#resume"><u>Resume</u></a> </li>
+                <li><a href="#work"><u>Work</u></a> </li>               
                 <li><a href="#contact-me"><u>Contact Me</u></a> </li>
+                <li><a href="file:///Users/christitugwell/Desktop/Tugwell%202023.pdf" target="_blank"><u>Resume</u></a> </li>
             </ul>
         </div>
     </header>
@@ -45,82 +27,141 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
     <div class="hero"></div>
 
     <main>
-    <div class="row">
+    <!--<div class="row">
       <section class="leftcolumn">
         <div class="category">
           <h2 id="aboutmeh2">ABOUT ME</h2>
           <h2 id="workh2">WORK</h2>
           <h2 id="contactmeh2">CONTACT ME</h2>
         </div>
-    </section>
+    </section> -->
 
-    <section class="rightcolumn">
+    <!-- GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+-->
+    <div class="about-me">
         <div class="card">
+            <div>
+                <h2 id="about-me">ABOUT ME</h2>
+            </div>
             <img src="../Assets/Images/Self_Portrait.jpg" 
                 alt="Self Portrait" 
                 width="200px" height="200px"
                 class="avatar">
             <div>
-                <h3 id="about-me">Just a gal from Houston, TX who found her place in North Central Washington.</h3> <p>I love music, immersive art, motorcycles, travel, pit bulls, hiking, running, baking, and creating! After over 10 years in hospitality, I moved into advertising and marketing and began my MS in Art and Technology from the University of Oklahoma. Throughout the program, I explored numerous digital art mediums and landed on wanting to learn different coding languages to use for AR and VR design, as well as point me toward the path of front end development. I've most enjoyed using Unity for creating 3D virtual environments, Glitch.com to create VR spaces and working in Adobe Premiere Pro and After Effects to create videos. Still working out the rest!
-                <br />
-                <br />
-                Please enjoy some of my favorite pieces created through various Adobe programs, Unity, and Glitch. More projects created with various coding languages are soon to come!
-                </p>
+                <h5 id="about-me"><strong>Just a gal from Houston, TX who found her place in North Central Washington.</h5></strong> <p>I love music, immersive art, motorcycles, travel, pit bulls, hiking, running, baking, and creating! After over 10 years in hospitality, I moved into advertising and marketing and began my MS in Art and Technology from the University of Oklahoma. Throughout the program, I explored numerous digital art mediums and landed on wanting to learn different coding languages to use for AR and VR design, as well as point me toward the path of front end development. I've most enjoyed using Unity for creating 3D virtual environments, Glitch.com to create VR spaces and working in Adobe Premiere Pro and After Effects to create videos. Still working out the rest!
+                        <br />
+                        <br />
+                        Please enjoy some of my favorite pieces created through various Adobe programs, Unity, and Glitch. More projects created with various coding languages are soon to come!
+                     </p>
             </div>
         </div>
-        <div class="project">
-            <h2 id="work">NW Wanderer</h2>
-              <h3>Unity</h3>
-              <div class="NW game-img">
-                <a href="https://play.unity.com/mg/other/webgl-builds-340110"><img src="../Assets/Images/NW_Wanderer_Unity.png" alt="Unity project" width="1000px" height="500px"/></a>
-              </div>
-        </div>
-        <div class="projects">
-            <h2> Pizza Time</h2>
-              <h3>Maya</h3>
-              <div class="Three d pizza-img">
-                <a href="https://vimeo.com/708089699?share=copy"><img src="../Assets/Images/3D_Pizza_Maya.png" alt="Maya project" width="450px" height="250px"/></a>
-              </div>
-        </div>
-        <div class="projects">
-            <h2> Worlds</h2>
-              <h3>Glitch/A-Frame</h3>
-              <div class="Worlds-img">
-                <a href="https://worldsct1.glitch.me"><img src="../Assets/Images/Worlds_Glitch.png" alt="Unity project" width="450px" height="250px"/></a>
-              </div>
-        </div>
-        <div class="projects">
-            <h2> Happy Place</h2>
-              <h3>Adobe After Effects</h3>
-              <div class="Happy-img">
-                <a href="https://vimeo.com/726232693?share=copy"><img src="../Assets/Images/Final_AE.png" alt="Unity project" width="450px" height="250px"/></a>
-              </div>
-        </div>
-        <div class="projects">
-            <h2> Hello Summer</h2>
-              <h3>Adobe After Effects</h3>
-              <div class="Hello-img">
-                <a href="https://vimeo.com/725517272?share=copy"><img src="../Assets/Images/Hello_Summer_AE.png" alt="Unity project" width="450px" height="250px"/></a>
-              </div>
-        </div>
-        <!--
-        <div class="resume">
-            <h3 id="resume">Updated Resume Coming Soon!</h3> 
-        </div> -->
-        <div class="contact-me">
-            <h3 id="contact-me">Let's Connect!</h3> 
+    </div>
+
+        <!--WHEN I click on the link to the section about their work
+            THEN the UI scrolls to a section with titled images of the developer's applications-->
+   
+        <!--WHEN I am presented with the developer's first application
+            THEN that application's image should be larger in size than the others-->
+           
+        <!--WHEN I click on the images of the applications
+            THEN I am taken to that deployed application-->
+
+    <div class="work">
+        <div class="Unity">
                 <div>
-                    <ul>
-                        <li>Email: <a href="mailto:tugwellchristi@gmail.com">tugwellchristi@gmail.com</a></li>
-                        <li>GitHub: <a href="https://github.com/tugwellchristi">tugwellchristi</a></li>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/in/christi-tugwell-a67194104/">Christi Tugwell</a></li>
-                    </ul>
+                    <h2 id="work">WORK</h2>   
                 </div>
+            <div>
+                <h3 id="work">NW Wanderer</h3>
+                <h4>Unity</h4>
+                <a href="https://play.unity.com/mg/other/webgl-builds-340110" target="_blank">
+                <img src="../Assets/Images/NW_Wanderer_Unity.png" 
+                    alt="Unity project" 
+                    width="1000px" height="500px"
+                    class="Unity img"/></a>
+            </div>
         </div>
-    </section>
+    </div>
+    <div class="flex-container">
+        <div class="Maya">
+            <div>
+                <h2 id="work"></h2>   
+            </div>
+            <div>
+                <h3> Pizza Time</h3>
+                <h4>Maya</h4>
+                    <a href="https://vimeo.com/708089699?share=copy" target="_blank">
+                    <img src="../Assets/Images/3D_Pizza_Maya.png" 
+                        alt="Maya project" 
+                        width="300px" height="175px"/></a>
+            </div>
+        </div>
+    
+        <div class="Glitch">
+            <div>
+                <h2 id="work"></h2>   
+            </div>
+            <div>
+                <h3> Worlds</h3>
+                <h4>Glitch/A-Frame</h4>
+                    <a href="https://worldsct1.glitch.me" target="_blank">
+                    <img src="../Assets/Images/Worlds_Glitch.png" 
+                        alt="Unity project" 
+                        width="350px" height="175px"
+                        class="Glitch"/></a>
+            </div>
+        </div>
+    </div>
+
+   <div class="flex-container">
+        <div class="Happy">
+            <div>
+                <h2 id="work"></h2>   
+            </div>
+            <div>
+                <h3> Happy Place</h3>
+                <h4>Adobe After Effects</h4>                
+                    <a href="https://vimeo.com/726232693?share=copy" target="_blank">
+                    <img src="../Assets/Images/Final_AE.png" 
+                        alt="Unity project" 
+                        width="300px" height="175px"
+                        class="Happy"/></a>
+            </div>
+        </div>
+    
+        <div class="Hello">
+            <div>
+                <h2 id="work"></h2>   
+            </div>
+            <div>
+                <h3> Hello Summer</h3>
+                <h4>Adobe After Effects</h4>
+                <a href="https://vimeo.com/725517272?share=copy" target="_blank"> 
+                <img src="../Assets/Images/Hello_Summer_AE.png" 
+                    alt="Unity project" 
+                    width="300px" height="175px"
+                    class="Hello"/></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-me">
+        <div>
+            <h2 id="contact-me">CONTACT ME</h2>   
+        </div>
+        <div>
+            <ul>
+                <li>Email: <a href=" mailto:tugwellchristi@gmail.com" target="_blank">tugwellchristi@gmail.com</a></li>
+                <li>GitHub: <a href=" https://github.com/tugwellchristi" target="_blank">tugwellchristi</a></li>
+                <li>LinkedIn: <a href=" https://www.linkedin.com/in/christi-tugwell-a67194104/" target="_blank">Christi Tugwell</a></li>
+            </ul>
+        </div>
     </div>
 </main>
-    <footer></footer>
+
+
  
-  </body>
+</body>
 </html>
