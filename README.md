@@ -42,7 +42,7 @@ file:///Users/christitugwell/bootcamp/Challenges/v2-Ch-2-Portfolio/v2-Ch-2-Adv-C
 
 ## Screenshots from Deployed Website
 Top section of portfolio site, hover color changes on header category links. 
-![Deployed_Page](https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio/assets/90078824/30dbeaa4-641d-475e-a836-7c49800ae836)
+![Top_Section](https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio/assets/90078824/be175702-8972-47a8-9a28-6bd7ef2b52e0)
 
 Work section of portfolio site, hover transparency placed on project image links. 
 ![Work_Section](https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio/assets/90078824/30e6e04b-880d-4367-bbf1-1f471041bab3)
