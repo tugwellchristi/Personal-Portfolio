@@ -1,32 +1,20 @@
-# v2-Ch-2-Adv-CSS-Portfolio
+# Personal Portfolio Site
 
-## Challenge Description
-A portfolio of work can showcase one's skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights one's strongest work as well as the thought processes behind it. This week's challenge focuses on building a portfolio from scratch that holds past and future projects, with a focus on flexbox, media queries and CSS variables. 
+## Portfolio Description
+This is my personal portfolio website that provides information about me, my work history, resume and some of my work from my MS program in Art and Technology that I completed this May. As I built this site, I focused on using basic HTML and expanding my knowledge of CSS properties, specifically flexbox and media queries. My goal was to build a basic shell, style it, and update it as I have more pieces to showcase and add more stylistic detail and functionality as my programming skills grow. 
 
 ## User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+My goal is to create a portfolio page that will display desired skills in HTML and CSS, display projects and showcase other competencies to future employers. 
 
 ## Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Some of the criteria I wanted to make sure was included is as follows: 
+1. Upon deploying the site, my name, avatar, and contact information would be included in sections with clickable links. 
+2. When clicking on one of the links in the navigation, the UI scrolls to the corresponding section.
+3. When clicking on the link to the section about work, the UI scrolls to a section with titled images of my applications.
+4. When displaying my first application, that application's image should be larger in size than the others.
+5. When clicking on the images of the applications, I am taken to the desired deployed application.
+6. When resizing the page or viewing the site on various screens and devices, I am presented with a responsive layout that adapts to my viewport. 
 
 ## Resources
 My portfolio pieces:
@@ -34,7 +22,8 @@ Please note that the Glitch and Unity projects occasionally need to be refreshed
 
 Glitch "Worlds" project: Live link - https://worldsct1.glitch.me & Live code link - https://glitch.com/edit/#!/worldsct1
 Unity "NW Wanderer" basic game build: Live link - https://play.unity.com/mg/other/webgl-builds-340110
-Adobe After Effects projects: Live "Hello Summer" link - https://vimeo.com/725517272?share=copy & Live "Final" link - https://vimeo.com/726232693?share=copy
+Adobe After Effects project 1: Live "Hello Summer" link - https://vimeo.com/725517272?share=copy  
+Adobe After Effects project 2: Live "Final" link - https://vimeo.com/726232693?share=copy
 Maya "3D Pizza" project: Live link - https://vimeo.com/708089699?share=copy
 
 ## Link to Deployed Website
