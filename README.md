@@ -27,7 +27,10 @@ Adobe After Effects project 2: Live "Final" link - https://vimeo.com/726232693?s
 Maya "3D Pizza" project: Live link - https://vimeo.com/708089699?share=copy
 
 ## Link to Deployed Website
-http://127.0.0.1:5500/Assets/index.html
+https://tugwellchristi.github.io/v2-Ch-2-Adv-CSS-Portfolio/
+
+## Link to Deployed GitHub Repository
+https://github.com/tugwellchristi/v2-Ch-2-Adv-CSS-Portfolio
 
 ## Screenshots from Deployed Website
 Top section of portfolio site, hover color changes on header category links. 
