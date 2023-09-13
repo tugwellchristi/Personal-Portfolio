@@ -73,8 +73,9 @@ a:hover {
 .avatar {
   display: flex;
   padding: 0px;
-  margin-right: 20px; 
-  height: 200px;
+  margin-top: 10px;
+  margin-left: 15px;
+  height: 150px;
   border: 2px solid rgb(71, 71, 117);
 }
 
@@ -90,14 +91,14 @@ a:hover {
 
 
 h2 {
-  display:flex; 
+  display:inline-flex; 
   color: rgb(71, 71, 117); 
   margin-right: 100px;
   margin-left: 15px;
   font-size: 40px;
   border-right-style: solid;
   border-color: #3690c0;
-  padding-right: 20px;
+  padding-right: 25px;
 }
 
 img:hover {
@@ -120,7 +121,7 @@ img:hover {
 }
 .Unity img {
   display: flex;
-  margin-left: 230px;
+  margin-left: 200px;
   padding: 0px;
   margin-right: 20px;
   width: 100%;
@@ -137,11 +138,7 @@ h3, h4 {
 .flex-container {
   display: flex;
   flex-direction: row;
-}
-
-.Maya, 
-.Happy { 
-  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -150,7 +147,31 @@ h3, h4 {
   color: rgb(71, 71, 117);
 }
 
-.Maya img, 
+.flex-container img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 270px;
+  padding: 0px;
+  margin-right: 10px;
+  width: 500px;
+  height: 300px;
+  border: 7px solid rgb(71, 71, 117);
+}
+
+
+/* .Maya, 
+.Happy { 
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 105px;
+  font-size: 25px;
+  color: rgb(71, 71, 117);
+} */
+
+/* .Maya img, 
 .Happy img {
   display: flex;
   margin-left: 270px;
@@ -159,9 +180,9 @@ h3, h4 {
   width: 100%;
   height: 260px;
   border: 7px solid rgb(71, 71, 117);
-}
+} */
 
-.Glitch, 
+/* .Glitch, 
 .Hello { 
   display: flex;
   width: 100%;
@@ -171,9 +192,9 @@ h3, h4 {
   margin-right: 180px;
   font-size: 25px;
   color: rgb(71, 71, 117);
-}
+} */
 
-.Glitch img,
+/* .Glitch img,
 .Hello img {
   display: flex;
   margin-left: 15px;
@@ -182,7 +203,7 @@ h3, h4 {
   width: 100%;
   height: 260px;
   border: 7px solid rgb(71, 71, 117);
-}
+} */
 
 .contact-me {
   padding:5px;
@@ -212,7 +233,7 @@ h3, h4 {
 /* WHEN I resize the page or view the site on various screens and devices
   THEN I am presented with a responsive layout that adapts to my viewport */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .header, body {
     background-color: #3690c0;
   }
@@ -226,4 +247,4 @@ h3, h4 {
   .flex-container {
     flex-wrap: wrap;
   }
-} 
+}  */
