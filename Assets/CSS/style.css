@@ -137,9 +137,9 @@ h3, h4 {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  flex-direction:row;
+  
+  width: 50%;
   padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 105px;
@@ -150,7 +150,6 @@ h3, h4 {
 .flex-container img {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin-left: 270px;
   padding: 0px;
   margin-right: 10px;
@@ -159,51 +158,6 @@ h3, h4 {
   border: 7px solid rgb(71, 71, 117);
 }
 
-
-/* .Maya, 
-.Happy { 
-  display: flex;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-left: 105px;
-  font-size: 25px;
-  color: rgb(71, 71, 117);
-} */
-
-/* .Maya img, 
-.Happy img {
-  display: flex;
-  margin-left: 270px;
-  padding: 0px;
-  margin-right: 10px;
-  width: 100%;
-  height: 260px;
-  border: 7px solid rgb(71, 71, 117);
-} */
-
-/* .Glitch, 
-.Hello { 
-  display: flex;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-left: 160px;
-  margin-right: 180px;
-  font-size: 25px;
-  color: rgb(71, 71, 117);
-} */
-
-/* .Glitch img,
-.Hello img {
-  display: flex;
-  margin-left: 15px;
-  padding: 0px;
-  margin-right: 25px;
-  width: 100%;
-  height: 260px;
-  border: 7px solid rgb(71, 71, 117);
-} */
 
 .contact-me {
   padding:5px;
@@ -243,8 +197,10 @@ h3, h4 {
       height: 60px; 
   } 
 }
+*/
 @media screen and (max-width: 992px) {
   .flex-container {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
-}  */
+}  
