@@ -35,6 +35,5 @@ Header of portfolio site.
 Project/Work section of portfolio site. 
 ![Screen Shot 2023-09-24 at 2 49 37 PM](https://github.com/tugwellchristi/Personal-Portfolio/assets/90078824/5f23e043-5360-4771-9bb7-9319f16ecdf4)
 
-
  Responsive view of portfolio site. 
 <img width="754" alt="Screen Shot 2023-09-24 at 2 50 16 PM" src="https://github.com/tugwellchristi/Personal-Portfolio/assets/90078824/53228157-be34-4268-9bf7-30f74344144c">
