@@ -9,12 +9,12 @@ My goal is to create a portfolio page that will display desired skills in HTML a
 ## Acceptance Criteria
 
 Some of the criteria I wanted to make sure was included is as follows: 
-1. Upon deploying the site, my name, avatar, and contact information would be included in sections with clickable links. 
-2. When clicking on one of the links in the navigation, the UI scrolls to the corresponding section.
-3. When clicking on the link to the section about work, the UI scrolls to a section with titled images of my applications.
-4. When displaying my first application, that application's image should be larger in size than the others.
-5. When clicking on the images of the applications, I am taken to the desired deployed application.
-6. When resizing the page or viewing the site on various screens and devices, I am presented with a responsive layout that adapts to my viewport. 
+- Upon deploying the site, my name, avatar, and contact information would be included in sections with clickable links. 
+- When clicking on one of the links in the navigation, the UI scrolls to the corresponding section.
+- When clicking on the link to the section about work, the UI scrolls to a section with titled images of my applications.
+- When displaying my first application, that application's image should be larger in size than the others.
+- When clicking on the images of the applications, I am taken to the desired deployed application.
+- When resizing the page or viewing the site on various screens and devices, I am presented with a responsive layout that adapts to my viewport. 
 
 ## Resources
 My portfolio pieces:
