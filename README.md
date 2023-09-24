@@ -24,7 +24,6 @@ Please note that the Glitch and Unity projects occasionally need to be refreshed
 
 ## Link to Deployed Website
 https://tugwellchristi.github.io/Personal-Portfolio/
-
 ## Link to Deployed GitHub Repository
 https://github.com/tugwellchristi/Personal-Portfolio
 
