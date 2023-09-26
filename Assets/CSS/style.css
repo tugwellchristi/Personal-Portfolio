@@ -61,14 +61,20 @@ a:hover {
 .hero {
   height: 125px;
   width: 100%;
-  margin-top: 25px;
-  margin-bottom: 25px;
   background-image: url(../Images/Blue_ribbon.jpg);
   background-size: cover;
   background-position: center;
   border-style: solid;
   border-color: rgb(71, 71, 117);
   border-width: 3px;
+}
+
+aside {
+  width: 35%;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  float: left;
 }
 
 
@@ -79,14 +85,15 @@ a:hover {
   margin-left: 5px;
   margin-right: 30;
   margin-bottom: 10px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 2px solid rgb(71, 71, 117);
 }
 
 .card {
   display: flex;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 0px;
   padding-right: 40px;
   margin-left: 15px;
@@ -94,16 +101,12 @@ a:hover {
   color: rgb(71, 71, 117);
 }
 
-
 h2 {
   display: flex;
-
   color: rgb(71, 71, 117);
   margin-right: 100px;
   margin-left: 15px;
   font-size: 40px;
-
-
   padding-right: 25px;
 }
 
@@ -116,6 +119,26 @@ img:hover {
 /* WHEN I am presented with the developer's first application
  THEN that application's image should be larger in size than the others*/
 
+.TapMap {
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  font-size: 25px;
+  color: rgb(71, 71, 117);
+}
+
+.TapMap img {
+  display: flex;
+  margin-left: 40px;
+  padding: 0px;
+  margin-right: 20px;
+  margin-bottom: 0%;
+  width: 87%;
+  height: 90%;
+  border: 7px solid rgb(71, 71, 117);
+}
 
 .Unity {
   display: flex;
@@ -134,7 +157,7 @@ img:hover {
   margin-right: 20px;
   margin-bottom: 0%;
   width: 90%;
-  height: 90%;
+  height: 85%;
   border: 7px solid rgb(71, 71, 117);
 }
 
@@ -150,9 +173,9 @@ img:hover {
   flex-direction: row;
   padding-right: 0px;
   margin-right: 0px;
-  margin-left: 40px;
+  margin-left: 210px;
   margin-bottom: 0px;
-  width: 101%;
+  width: 90%;
   height: 60%;
   border: 7px solid rgb(71, 71, 117);
 }
@@ -161,6 +184,7 @@ img:hover {
   display: flex;
   flex-direction: row;
   font-size: 25px;
+  justify-content: center;
   color: rgb(71, 71, 117);
 }
 
@@ -168,9 +192,10 @@ img:hover {
   display: flex;
   flex-direction: row;
   padding: 0px;
-  margin-left: 75px;
+  margin-left: 220px;
   margin-right: 10px;
-  width: 90%;
+  margin-bottom: 0px;
+  width: 75%;
   height: 60%;
   border: 7px solid rgb(71, 71, 117);
 }
@@ -187,10 +212,10 @@ img:hover {
   flex-direction: row;
   padding: 0px;
   margin-right: 0px;
-  margin-left: 40px;
+  margin-left: 195px;
   margin-bottom: 0px;
-  width: 90%;
-  height: 70%;
+  width: 82%;
+  height: 65%;
   border: 7px solid rgb(71, 71, 117);
 }
 
@@ -205,23 +230,27 @@ img:hover {
   display: flex;
   flex-direction: row;
   padding: 0px;
-  margin-left: 25px;
+  margin-left: 273px;
   margin-right: 10px;
-  width: 90%;
-  height: 70%;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 65%;
   border: 7px solid rgb(71, 71, 117);
 }
 
-h3,
+h3 {
+  display: flex;
+  margin-left: 55px;
+}
+
 h4 {
   display: flex;
   justify-content: center;
-  margin-left: 55px;
+  margin-left: 200px;
 }
 
 .contact-me {
   padding: 5px;
-
   color: rgb(71, 71, 117);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 40px;
@@ -268,6 +297,14 @@ h4 {
   h5,
   p {
     margin-left: 20px;
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h3 {
+    display: flex;
+    justify-content: end;
   }
 }
 
@@ -280,7 +317,8 @@ h4 {
 
 @media screen and (max-width: 992px) {
   .avatar {
-    margin-left: 50px;
+    margin-left: 270px;
+
   }
 
   @media screen and (max-width: 992px) {
@@ -301,15 +339,17 @@ h4 {
 
   @media screen and (max-width: 992px) {
 
-    .Happy,
-    .Happy img {
-      width: 92%;
-      height: 75%;
+    .TapMap,
+    .TapMap img {
+      width: 95%;
+      height: 85%;
     }
   }
 
   @media screen and (max-width: 992px) {
 
+    .Happy,
+    .Happy img,
     .Pizza,
     .Pizza img,
     .Hello,
@@ -319,6 +359,7 @@ h4 {
       width: 92%;
       height: 80%;
       margin-left: 20px;
+      margin-bottom: 20px;
     }
   }
 
@@ -327,6 +368,7 @@ h4 {
       display: flex;
       flex-direction: column;
       margin-left: 18px;
+      font-size: large;
     }
   }
 }
